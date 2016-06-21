@@ -1,0 +1,167 @@
+/****************
+GENERAL
+****************/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 30px 20px 20px 20px;
+}
+
+h3 {
+  font-size: 1.125em;
+
+}
+
+/****************
+HEADING
+****************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: 700;
+  line-height: 0.8em;
+}
+
+/****************
+NAVIGATION
+****************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/****************
+INTRODUCTION
+****************/
+
+#introduction {
+  margin: 0;
+  padding: 10%;
+  list-style: none;
+  text-align: center;
+}
+
+.profile-img {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/****************
+PORTFOLIO
+****************/
+
+#portfolio {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#portfolio ul {
+  list-style: none;
+  padding: 0;
+}
+
+#portfolio p {
+  padding: 0 10% 5% 10%;
+
+}
+
+.project-img {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/****************
+CONTACT
+****************/
+
+#contact {
+  margin: 0;
+  padding: 5% 10%;
+  list-style: none;
+  text-align: center;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/****************
+FOOTER
+****************/
+
+
+
+/****************
+COLORS
+****************/
+
+/* site body */
+body {
+  background-color: #fafafa;
+  color: #4a4a4a;
+}
+
+/* logo text*/
+h1, h2 {
+  color: #4a4a4a;
+}
+
+nav li {
+  background-color: white;
+}
+
+#portfolio {
+  background-color: white;
+}

@@ -1,0 +1,38 @@
+
+
+@media screen and (min-width: 768px) {
+
+  /****************
+  HEADER
+  ****************/
+
+  nav li {
+    display: inline-block;
+  }
+
+
+
+@media screen and (min-width: 1024px) {
+
+  /****************
+  HEADER
+  ****************/
+
+  nav {
+    background: none;
+    float: right;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
