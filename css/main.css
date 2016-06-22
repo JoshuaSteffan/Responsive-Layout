@@ -21,6 +21,10 @@ h3 {
 
 }
 
+p {
+  font-weight: 300;
+}
+
 /****************
 HEADING
 ****************/
@@ -94,18 +98,20 @@ INTRODUCTION
 PORTFOLIO
 ****************/
 
-#portfolio {
+#main-content {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-#portfolio ul {
+#main-content div {
   list-style: none;
   padding: 0;
 }
 
-#portfolio p {
+
+
+#main-content p {
   padding: 0 10% 5% 10%;
 
 }
@@ -125,11 +131,13 @@ CONTACT
   padding: 5% 10%;
   list-style: none;
   text-align: center;
+  position:
 }
 
 #contact ul {
   list-style: none;
   padding: 0;
+  padding-top: 20px;
 }
 
 #contact li {
@@ -141,7 +149,35 @@ CONTACT
 FOOTER
 ****************/
 
+#footer {
+  border-top: 1px solid #4a4a4a;
+}
 
+#footer ul {
+  list-style: none;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#footer li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+
+.footer-name {
+  float: left;
+}
+
+.to-top {
+  float: right;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
 
 /****************
 COLORS
@@ -162,6 +198,6 @@ nav li {
   background-color: white;
 }
 
-#portfolio {
+#main-content {
   background-color: white;
 }
