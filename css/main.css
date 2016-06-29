@@ -1,3 +1,4 @@
+
 /****************
 GENERAL
 ****************/
@@ -11,14 +12,13 @@ a {
 }
 
 h2 {
-  font-size: 0.875rem;
+  font-size: 0.875em;
   font-weight: 700;
   padding: 30px 20px 20px 20px;
 }
 
 h3 {
   font-size: 1.125em;
-
 }
 
 p {
@@ -56,19 +56,18 @@ NAVIGATION
 nav {
   text-align: center;
   padding: 10px 0;
-
 }
 
 nav ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0 10px;
   padding: 0;
 }
 
 nav li {
-  font-size: 0.875rem;
+  font-size: 0.875em;
   font-weight: 700;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin-bottom: 10px;
 }
 
@@ -98,28 +97,33 @@ INTRODUCTION
 PORTFOLIO
 ****************/
 
-#main-content {
+#main-content,
+#sub-content {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-#main-content div {
+#main-content div,
+#sub-content div {
   list-style: none;
   padding: 0;
 }
 
-
-
-#main-content p {
+#main-content p,
+#sub-content p {
   padding: 0 10% 5% 10%;
-
 }
 
 .project-img {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  transition: all 0.5s;
+}
+
+.project-img:hover {
+  transform: scale(1.1);
 }
 
 /****************
@@ -131,13 +135,14 @@ CONTACT
   padding: 5% 10%;
   list-style: none;
   text-align: center;
-  position:
+  width: 80%;
 }
 
 #contact ul {
   list-style: none;
   padding: 0;
   padding-top: 20px;
+  padding-bottom: 10%
 }
 
 #contact li {
@@ -151,19 +156,9 @@ FOOTER
 
 #footer {
   border-top: 1px solid #4a4a4a;
-}
-
-#footer ul {
-  list-style: none;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-#footer li {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  font-weight: 700;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .footer-name {
@@ -174,9 +169,8 @@ FOOTER
   float: right;
 }
 
-#footer a {
-  text-decoration: none;
-  color: #4a4a4a;
+.footer-nav {
+  display: none;
 }
 
 /****************
@@ -189,15 +183,45 @@ body {
   color: #4a4a4a;
 }
 
+header {
+  background-color: #36acd0;
+}
+
+header h1 {
+  color: #fafafa;
+}
+
+#contact {
+  background-color: #36acd0;
+  color: #fafafa;
+}
+
+#contact h2 {
+  color: #fafafa;
+}
+
+a {
+  color: #4a4a4a;
+}
+
 /* logo text*/
 h1, h2 {
   color: #4a4a4a;
 }
 
 nav li {
-  background-color: white;
+  background-color: #36acd0;
 }
 
-#main-content {
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: #2472aa;
+}
+
+#main-content,
+#sub-content {
   background-color: white;
 }
